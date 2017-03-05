@@ -42,3 +42,20 @@ Create a new project using the archetype published here: https://digibp.github.i
 - Set `Repository URL` to `https://digibp.github.io/digibp-archetype-camunda-boot`
 - Click `OK` so the Archetype is added to the list
 - Click `Next` and create the project
+
+## Releases
+
+### 1.0.1
+
+Fixing the basic package
+
+### 1.0.0
+
+Initial version
+
+## Maintainer
+- Andreas Martin
+
+## License
+
+- link:./LICENSE[Apache License, Version 2.0]
