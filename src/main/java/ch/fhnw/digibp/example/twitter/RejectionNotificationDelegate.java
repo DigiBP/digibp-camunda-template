@@ -1,4 +1,4 @@
-package ch.fhnw.digibp.camunda.boot.example.twitter;
+package ch.fhnw.digibp.example.twitter;
 
 import org.camunda.bpm.engine.delegate.DelegateExecution;
 import org.camunda.bpm.engine.delegate.JavaDelegate;

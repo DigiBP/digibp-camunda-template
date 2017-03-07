@@ -45,6 +45,10 @@ Create a new project using the archetype published here: https://digibp.github.i
 
 ## Releases
 
+### 1.0.2
+
+Fixing the Eclipse issue
+
 ### 1.0.1
 
 Fixing the basic package
