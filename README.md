@@ -11,13 +11,13 @@ Make sure that you are increase the version, before push a new archetype to the 
 clean archetype:create-from-project -Darchetype.properties=archetype.properties
 ```
 
-### Push to maven repository
+### Push to Maven Repository
 Clone the gh-pages branch and copy your generated artifacts to a new version folder and commit & push.
 
-## Create a new project
+## Creating a new Project
 Create a new project using the archetype published here: https://digibp.github.io/digibp-archetype-camunda-boot
 
-### Create a new project in IntelliJ
+### Creating a new Project in IntelliJ
 
 - Create new project `File > New > Project`
 - Click Maven on the left hand side of the new project dialog
@@ -25,22 +25,24 @@ Create a new project using the archetype published here: https://digibp.github.i
 - Click the `Add Archetype` button
 - Set `Group Id` to `ch.fhnw.digibp.archetype`
 - Set `Artifact Id` to `digibp-archetype-camunda-boot`
-- Set `Version` to `1.0.0`
+- Set `Version` to `<the latest release version>`
 - Set `Repository` to `https://digibp.github.io/digibp-archetype-camunda-boot`
 - Click next and create the project
 
-### Creating a new project in Eclipse
+### Creating a new Project in Eclipse
 
+#### Add a Remote Archetype Catalog 
+- Open `Window > Preferences`
+- Go to `Maven > Archetypes` and select `Add Remote Catalog...`
+- Set `Catalog File` to `https://digibp.github.io/digibp-archetype-camunda-boot/archetype-catalog.xml`
+- Click `OK` so the Archetype catalog is added to the list
+
+#### Creating a new Project in Eclipse using the Catalog
 - Create new project `File > New > Maven Project`
 - Make sure `Create a simple project` option is not selected
 - Click `Next` to navigate to `Select an Archetype` screen
-- Make sure `Include snapshot archetypes` is selected
-- Click `Add Archetype` button
-- Set `Archetype Group Id` to `ch.fhnw.digibp.archetype`
-- Set `Archetype Artifact Id` to `digibp-archetype-camunda-boot`
-- Set `Archetype Version` to `1.0.0`
-- Set `Repository URL` to `https://digibp.github.io/digibp-archetype-camunda-boot`
-- Click `OK` so the Archetype is added to the list
+- Select the `Remote https://digibp...` catalog from the `Catalog` dropdown 
+- Select the latest archetype `digibp-archetype-camunda-boot` from the appearing list
 - Click `Next` and create the project
 
 ## Releases
@@ -58,8 +60,8 @@ Fixing the basic package
 Initial version
 
 ## Maintainer
-- Andreas Martin
+- [Andreas Martin](https://github.com/andreasmartin)
 
 ## License
 
-- https://github.com/DigiBP/digibp-archetype-camunda-boot/blob/master/LICENSE
+- [Apache License, Version 2.0](https://github.com/DigiBP/digibp-archetype-camunda-boot/blob/master/LICENSE)
