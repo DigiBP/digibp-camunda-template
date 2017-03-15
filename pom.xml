@@ -6,7 +6,7 @@
 
     <groupId>ch.fhnw.digibp.archetype</groupId>
     <artifactId>digibp-archetype-camunda-boot</artifactId>
-    <version>1.0.2</version>
+    <version>1.0.3</version>
 
     <packaging>${packaging.type}</packaging>
     <properties>
