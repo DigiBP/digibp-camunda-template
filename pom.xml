@@ -6,11 +6,12 @@
 
     <groupId>ch.fhnw.digibp.archetype</groupId>
     <artifactId>digibp-archetype-camunda-boot</artifactId>
-    <version>1.0.3</version>
+    <version>1.0.4</version>
 
     <packaging>${packaging.type}</packaging>
     <properties>
         <camunda.version>7.6.0</camunda.version>
+        <camunda-ee.version>7.6.2-ee</camunda-ee.version>
         <camunda-spring-boot.version>2.0.0</camunda-spring-boot.version>
         <spring-boot.version>1.4.4.RELEASE</spring-boot.version>
         <java.version>1.8</java.version>
@@ -170,6 +171,58 @@
                         <configuration>
                             <failOnMissingWebXml>false</failOnMissingWebXml>
                         </configuration>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+        <profile>
+            <id>Camunda-Enterprise-Edition</id>
+            <properties>
+                <camunda.version>${camunda-ee.version}</camunda.version>
+            </properties>
+            <dependencies>
+                <dependency>
+                    <groupId>org.camunda.bpm.webapp</groupId>
+                    <artifactId>camunda-webapp-ee-plugins</artifactId>
+                    <version>${camunda-ee.version}</version>
+                    <type>jar</type>
+                    <classifier>classes</classifier>
+                </dependency>
+            </dependencies>
+            <repositories>
+                <repository>
+                    <id>camunda-bpm-ee</id>
+                    <name>camunda-bpm-ee</name>
+                    <url>https://app.camunda.com/nexus/content/repositories/camunda-bpm-ee</url>
+                </repository>
+            </repositories>
+            <build>
+                <plugins>
+                    <!-- first fetch and unpack the war -->
+                    <plugin>
+                        <artifactId>maven-dependency-plugin</artifactId>
+                        <executions>
+                            <execution>
+                                <id>unpack</id>
+                                <phase>process-sources</phase>
+                                <goals>
+                                    <goal>unpack</goal>
+                                </goals>
+                                <configuration>
+                                    <artifactItems>
+                                        <artifactItem>
+                                            <groupId>org.camunda.bpm.webapp</groupId>
+                                            <artifactId>camunda-webapp-ee-plugins</artifactId>
+                                            <version>${camunda-ee.version}</version>
+                                            <type>war</type>
+                                            <overWrite>true</overWrite>
+                                            <outputDirectory>${project.build.outputDirectory}</outputDirectory>
+                                            <excludes>META-INF/**</excludes>
+                                        </artifactItem>
+                                    </artifactItems>
+                                </configuration>
+                            </execution>
+                        </executions>
                     </plugin>
                 </plugins>
             </build>
