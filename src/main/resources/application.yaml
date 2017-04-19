@@ -4,7 +4,7 @@ camunda:
       id: demo
       password: demo
 
-# This is for using a file-based DB
+# This is for using a file-based DB (only the first five lines)
 # In this case the Camunda data/configuration will persist
 # The file will be placed user the users directory
 #
@@ -13,8 +13,9 @@ camunda:
 #    url: jdbc:h2:file:~/camunda
 #    username: sa
 #    password: sa
-
-#spring:
+#  jpa:
+#    hibernate:
+#      ddl-auto: update
 #  h2:
 #    console:
 #      enabled: true

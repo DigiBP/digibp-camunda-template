@@ -6,12 +6,12 @@
 
     <groupId>ch.fhnw.digibp.archetype</groupId>
     <artifactId>digibp-archetype-camunda-boot</artifactId>
-    <version>1.0.4</version>
+    <version>1.0.5</version>
 
     <packaging>${packaging.type}</packaging>
     <properties>
         <camunda.version>7.6.0</camunda.version>
-        <camunda-ee.version>7.6.2-ee</camunda-ee.version>
+        <camunda-ee.version>7.6.4-ee</camunda-ee.version>
         <camunda-spring-boot.version>2.0.0</camunda-spring-boot.version>
         <spring-boot.version>1.4.4.RELEASE</spring-boot.version>
         <java.version>1.8</java.version>
@@ -65,10 +65,10 @@
         </dependency>
 
         <!-- Camunda REST API -->
-        <dependency>
+        <!--<dependency>
             <groupId>org.camunda.bpm.extension.springboot</groupId>
             <artifactId>camunda-bpm-spring-boot-starter-rest</artifactId>
-        </dependency>
+        </dependency>-->
 
         <!-- Camunda HTTP/REST connector -->
         <dependency>
@@ -95,9 +95,19 @@
             <groupId>com.h2database</groupId>
             <artifactId>h2</artifactId>
         </dependency>
-<!--        <dependency>
+        <!--<dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
+        </dependency>-->
+
+        <!-- Spring Boot Data -->
+        <!--<dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-jpa</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-rest</artifactId>
         </dependency>-->
 
     </dependencies>
