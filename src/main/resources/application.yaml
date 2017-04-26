@@ -3,6 +3,8 @@ camunda:
     admin-user:
       id: demo
       password: demo
+    authorization:
+      enabled: true
 
 # This is for using a file-based DB (only the first five lines)
 # In this case the Camunda data/configuration will persist
