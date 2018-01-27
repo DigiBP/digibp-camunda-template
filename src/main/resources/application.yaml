@@ -3,33 +3,18 @@ camunda:
     admin-user:
       id: demo
       password: demo
-    authorization:
-      enabled: true
+    filter:
+      create: All Tasks
 
-# This is for using a file-based DB (only the first five lines)
-# In this case the Camunda data/configuration will persist
-# The file will be placed user the users directory
-#
-#spring:
-#  datasource:
-#    url: jdbc:h2:file:~/camunda
-#    username: sa
-#    password: sa
-#  jpa:
-#    hibernate:
-#      ddl-auto: update
+spring:
+  datasource:
+    url: jdbc:h2:file:./data/camunda
+    username: sa
+    password: sa
 #  h2:
 #    console:
 #      enabled: true
 #      path: /console
 
-# This is for using a remote MySQL/Maria DB
-# In Jelastic you may need a public IPv4
-# Don't forget to add the MySQL driver to POM
-#
-#spring:
-#  datasource:
-#    url: jdbc:mysql://mariadb40920-digi-bp.appengine.flow.ch:3306/digibp?autoReconnect=true
-#    username: digibp
-#    password: digibp
-#    driverClassName: com.mysql.jdbc.Driver
+#server:
+#  port: 8081

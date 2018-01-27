@@ -1,16 +1,8 @@
-# DigiBP Camunda Boot Project Template for Archetype
+# DigiBP Microflow Template
 
-## Summary
-Based on this project a Maven archetype for Camunda Spring Boot can be generated. 
+[![License](http://img.shields.io/:license-apache-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0.html)
 
-## Procedure for Creating a new Version
-1. Clone this repository and make your changes.
-2. Make sure that you increase the version in the Maven `pom.xml`.
-3. Generate the archetype from the project `clean archetype:create-from-project -Darchetype.properties=archetype.properties`.
-4. Clone the gh-pages branch and copy your generated archetype files to the gh-pages branch.
-5. Optional: `clean install archetype:update-local-catalog` and copy the entries to the `archetype-catalog.xml`.
-6. Deploy the artifacts to the main folder of the gh-pages branch using `deploy -DaltDeploymentRepository=internal.repo::default::file://${basedir}`
-7. Commit and push the gh-pages branch.
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
 ## Maintainer
 - [Andreas Martin](https://github.com/andreasmartin)

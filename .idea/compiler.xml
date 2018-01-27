@@ -8,12 +8,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="CamundaQuickstart" />
         <module name="DigiBPArchetypeCamundaBoot" />
+        <module name="DigiBPMicroflowTemplate" />
         <module name="TwitterLite" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="CamundaQuickstart" target="1.8" />
       <module name="DigiBPArchetypeCamundaBoot" target="1.8" />
+      <module name="DigiBPMicroflowTemplate" target="1.8" />
       <module name="TwitterLite" target="1.8" />
     </bytecodeTargetLevel>
   </component>

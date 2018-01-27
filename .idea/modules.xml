@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/DigiBPArchetypeCamundaBoot.iml" filepath="$PROJECT_DIR$/DigiBPArchetypeCamundaBoot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DigiBPMicroflowTemplate.iml" filepath="$PROJECT_DIR$/DigiBPMicroflowTemplate.iml" />
     </modules>
   </component>
 </project>

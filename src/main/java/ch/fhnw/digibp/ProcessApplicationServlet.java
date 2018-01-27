@@ -10,12 +10,12 @@ import org.springframework.boot.web.support.SpringBootServletInitializer;
 @EnableProcessApplication
 public class ProcessApplicationServlet extends SpringBootServletInitializer {
 
-  public static void main(String[] args) {
-    SpringApplication.run(ProcessApplicationServlet.class, args);
-  }
+	public static void main(String[] args) {
+		SpringApplication.run(ProcessApplicationServlet.class, args);
+	}
 
-  @Override
-  protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
-    return application.sources(ProcessApplicationServlet.class);
-  }
+	@Override
+	protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
+		return application.sources(ProcessApplicationServlet.class);
+	}
 }
