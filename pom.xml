@@ -6,7 +6,7 @@
 
     <groupId>ch.fhnw.digibp.template</groupId>
     <artifactId>digibp-microflow</artifactId>
-    <version>2.0.0</version>
+    <version>2.0.1</version>
     <packaging>${packaging.type}</packaging>
 
     <properties>
@@ -96,12 +96,6 @@
             <version>9.4-1201-jdbc4</version>
         </dependency>
 
-        <!-- Spring Boot Devtools -->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-devtools</artifactId>
-            <optional>true</optional>
-        </dependency>
     </dependencies>
 
     <build>
@@ -180,6 +174,19 @@
                     </plugin>
                 </plugins>
             </build>
+        </profile>
+        <profile>
+            <id>Spring-Boot-Devtools</id>
+            <properties>
+                <packaging.type>war</packaging.type>
+            </properties>
+            <dependencies>
+                <dependency>
+                    <groupId>org.springframework.boot</groupId>
+                    <artifactId>spring-boot-devtools</artifactId>
+                    <optional>true</optional>
+                </dependency>
+            </dependencies>
         </profile>
     </profiles>
 
