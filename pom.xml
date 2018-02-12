@@ -6,7 +6,7 @@
 
     <groupId>ch.fhnw.digibp</groupId>
     <artifactId>digibp-camunda-template</artifactId>
-    <version>2.0.2</version>
+    <version>2.0.3</version>
     <packaging>${packaging.type}</packaging>
 
     <properties>

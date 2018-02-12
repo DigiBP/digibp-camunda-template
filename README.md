@@ -5,7 +5,7 @@
 [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
 ## Maintainer
-- [Andreas Martin](https://github.com/andreasmartin)
+- [Digitalisation of Business Processes](https://github.com/digibp)
 
 ## License
 
