@@ -1,0 +1,10 @@
+#spring:
+#  datasource:
+#    url: jdbc:postgresql://<host>:<port>/<dbname>?user=<username>&password=<password>&sslmode=require
+#    username: <username>
+#    password: <password>
+
+#service:
+#  <SERVICE-NAME>:
+#    URL: <URL>
+#    Authorization: <Authorization>

@@ -7,6 +7,8 @@ camunda:
       create: All Tasks
 
 spring:
+  profiles:
+    active: local
   datasource:
     url: jdbc:h2:file:./data/camunda
     username: sa
