@@ -6,7 +6,7 @@
 
     <groupId>ch.fhnw.digibp</groupId>
     <artifactId>digibp-camunda-template</artifactId>
-    <version>3.2.0</version>
+    <version>3.2.1</version>
     <packaging>${packaging.type}</packaging>
 
     <properties>
@@ -47,17 +47,17 @@
             <version>${camunda.spring.boot.starter.version}</version>
         </dependency>
 
-        <!-- Camunda Web Apps (e.g. Cockpit, Tasklist, Admin, etc.) -->
-        <dependency>
-            <groupId>org.camunda.bpm.springboot</groupId>
-            <artifactId>camunda-bpm-spring-boot-starter-webapp</artifactId>
-            <version>${camunda.spring.boot.starter.version}</version>
-        </dependency>
-
         <!-- Camunda REST API -->
         <dependency>
             <groupId>org.camunda.bpm.springboot</groupId>
             <artifactId>camunda-bpm-spring-boot-starter-rest</artifactId>
+            <version>${camunda.spring.boot.starter.version}</version>
+        </dependency>
+
+        <!-- Camunda Web Apps (e.g. Cockpit, Tasklist, Admin, etc.) -->
+        <dependency>
+            <groupId>org.camunda.bpm.springboot</groupId>
+            <artifactId>camunda-bpm-spring-boot-starter-webapp</artifactId>
             <version>${camunda.spring.boot.starter.version}</version>
         </dependency>
 
@@ -152,7 +152,7 @@
         <profile>
             <id>Spring-Boot-Devtools</id>
             <properties>
-                <packaging.type>war</packaging.type>
+                <packaging.type>jar</packaging.type>
             </properties>
             <dependencies>
                 <dependency>
