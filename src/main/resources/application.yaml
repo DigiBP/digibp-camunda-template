@@ -11,10 +11,10 @@ camunda:
 spring:
   profiles:
     active: local
-  datasource:
-    url: jdbc:h2:file:./data/camunda
-    username: sa
-    password: sa
+#  datasource:
+#    url: jdbc:h2:file:./data/camunda
+#    username: sa
+#    password: sa
 ## Uncomment the following lines to enable the h2 DB console:
 #  h2:
 #    console:
