@@ -6,7 +6,7 @@
 
     <groupId>ch.fhnw.digibp</groupId>
     <artifactId>digibp-camunda-template</artifactId>
-    <version>3.2.2</version>
+    <version>3.2.3</version>
     <packaging>${packaging.type}</packaging>
 
     <properties>
@@ -82,6 +82,10 @@
         </dependency>
 
         <!-- Database (MySQL, H2 or postgresql) drivers -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-jdbc</artifactId>
+        </dependency>
         <dependency>
             <groupId>com.h2database</groupId>
             <artifactId>h2</artifactId>
