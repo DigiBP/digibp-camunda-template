@@ -3,3 +3,12 @@ spring:
     url: ${JDBC_DATABASE_URL}
     username: ${JDBC_DATABASE_USERNAME}
     password: ${JDBC_DATABASE_PASSWORD}
+
+camunda:
+  bpm:
+    admin-user:
+      password: ${CAMUNDA_ADMIN_PASSWORD:demo}
+
+cors:
+  enabled: ${CORS_ENABLED:false}
+  allowed-origin: ${CORS_ORIGIN:*}

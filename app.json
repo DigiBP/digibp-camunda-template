@@ -4,5 +4,11 @@
   "repository": "https://github.com/DigiBP/digibp-camunda-template/tree/master",
   "addons": ["heroku-postgresql:hobby-dev"],
   "logo": "https://avatars3.githubusercontent.com/u/25099178?s=200&v=4",
-  "keywords": ["FHNW"]
+  "keywords": ["FHNW"],
+  "env": {
+    "CORS_ENABLED": {
+      "description": "CORS enabled?",
+      "value": "false"
+    }
+  }
 }
