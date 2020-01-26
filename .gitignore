@@ -1,13 +1,4 @@
-target/
-!.mvn/wrapper/maven-wrapper.jar
 /data/
-
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.settings
-.springBeans
 
 ### IntelliJ IDEA ###
 .idea
@@ -39,6 +30,7 @@ local.properties
 .project
 
 ### Maven ###
+target/
 pom.xml.tag
 pom.xml.releaseBackup
 pom.xml.versionsBackup
@@ -47,6 +39,8 @@ release.properties
 dependency-reduced-pom.xml
 buildNumber.properties
 .mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+.flattened-pom.xml
 
 ### Composer ###
 composer.phar
@@ -68,3 +62,22 @@ vendor/
 ### Environment Variables ###
 *.env
 application-local.yaml
+
+### macOS ###
+.DS_Store
+.AppleDouble
+.LSOverride
+
+### Windows ###
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+### Linux ###
+*~
+.directory
+.Trash-*
+.nfs*
