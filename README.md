@@ -5,6 +5,11 @@
 
 ## Releases
 
+### [7.14.0](https://github.com/DigiBP/digibp-camunda-template/tree/7.14.0)
+- Updating Camunda to 7.14.0
+- Updating Camunda Spring Boot Starter to 7.14.0
+- Updating Spring Boot to 2.3.1.RELEASE
+
 ### [7.13.0](https://github.com/DigiBP/digibp-camunda-template/tree/7.13.0)
 - Updating Camunda to 7.13.0
 - Updating Camunda Spring Boot Starter to 7.13.0

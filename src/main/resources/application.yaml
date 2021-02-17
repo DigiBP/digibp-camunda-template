@@ -7,14 +7,12 @@ camunda:
       create: All Tasks
     authorization:
       enabled: false
-    webapp:
-      application-path: /
 
 spring:
   profiles:
     active: local
-  jersey:
-    application-path: /rest
+#  jersey:
+#    application-path: /rest
 #  datasource:
 #    url: jdbc:h2:file:./data/camunda
 #    username: sa
