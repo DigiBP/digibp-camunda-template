@@ -5,32 +5,11 @@
 
 ## Releases
 
-### [7.16.0](https://github.com/devolute/devolute-camunda-template/tree/7.16.0)
-- Updating Camunda to 7.16.0
-- Updating Camunda Spring Boot Starter to 7.16.0
-- Updating Spring Boot to 2.5.4
+### [7.18.0](https://github.com/DigiBP/devolute-camunda-template/tree/7.18.0)
+- Updating Camunda to 7.18.0
+- Updating Camunda Spring Boot Starter to 7.18.0
+- Updating Spring Boot to 2.7.3
 
-### [7.14.0](https://github.com/devolute/devolute-camunda-template/tree/7.14.0)
-- Updating Camunda to 7.14.0
-- Updating Camunda Spring Boot Starter to 7.14.0
-- Updating Spring Boot to 2.3.1.RELEASE
-
-### [7.13.0](https://github.com/devolute/devolute-camunda-template/tree/7.13.0)
-- Updating Camunda to 7.13.0
-- Updating Camunda Spring Boot Starter to 7.13.0
-- Updating Spring Boot to 2.2.5.RELEASE
-
-### [3.4.0](https://github.com/devolute/devolute-camunda-template/tree/3.4.0)
-- Updating Camunda to 7.12.0
-- Updating Camunda Spring Boot to 3.4.0
-- Updating Spring Boot to 2.2.1.RELEASE
-
-### [3.3.0](https://github.com/devolute/devolute-camunda-template/tree/3.3.0)
-- Updating Camunda to 7.11.0
-- Updating Camunda Spring Boot to 3.3.4
-- Updating Spring Boot to 2.1.6.RELEASE
-- Removing Maven Wrapper
-- Removing Camunda Modeler Templates
 
 ### 3.2.3
 - Adding `spring-boot-starter-jdbc` dependency, otherwise `spring:datasource` is ignored.
