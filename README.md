@@ -1,31 +1,31 @@
-# DigiBP Camunda Template
+# devolute Camunda Template
 
 [![License](http://img.shields.io/:license-apache-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0.html)
 [![Deploy to Heroku](https://img.shields.io/badge/deploy%20to-Heroku-6762a6.svg?longCache=true)](https://heroku.com/deploy)
 
 ## Releases
 
-### [7.16.0](https://github.com/DigiBP/digibp-camunda-template/tree/7.16.0)
+### [7.16.0](https://github.com/devolute/devolute-camunda-template/tree/7.16.0)
 - Updating Camunda to 7.16.0
 - Updating Camunda Spring Boot Starter to 7.16.0
 - Updating Spring Boot to 2.5.4
 
-### [7.14.0](https://github.com/DigiBP/digibp-camunda-template/tree/7.14.0)
+### [7.14.0](https://github.com/devolute/devolute-camunda-template/tree/7.14.0)
 - Updating Camunda to 7.14.0
 - Updating Camunda Spring Boot Starter to 7.14.0
 - Updating Spring Boot to 2.3.1.RELEASE
 
-### [7.13.0](https://github.com/DigiBP/digibp-camunda-template/tree/7.13.0)
+### [7.13.0](https://github.com/devolute/devolute-camunda-template/tree/7.13.0)
 - Updating Camunda to 7.13.0
 - Updating Camunda Spring Boot Starter to 7.13.0
 - Updating Spring Boot to 2.2.5.RELEASE
 
-### [3.4.0](https://github.com/DigiBP/digibp-camunda-template/tree/3.4.0)
+### [3.4.0](https://github.com/devolute/devolute-camunda-template/tree/3.4.0)
 - Updating Camunda to 7.12.0
 - Updating Camunda Spring Boot to 3.4.0
 - Updating Spring Boot to 2.2.1.RELEASE
 
-### [3.3.0](https://github.com/DigiBP/digibp-camunda-template/tree/3.3.0)
+### [3.3.0](https://github.com/devolute/devolute-camunda-template/tree/3.3.0)
 - Updating Camunda to 7.11.0
 - Updating Camunda Spring Boot to 3.3.4
 - Updating Spring Boot to 2.1.6.RELEASE
@@ -119,4 +119,4 @@
 - [Andreas Martin](https://github.com/andreasmartin)
 
 ## License
-- [Apache License, Version 2.0](https://github.com/DigiBP/digibp-archetype-camunda-boot/blob/master/LICENSE)
+- [Apache License, Version 2.0](https://github.com/devolute/devolute-archetype-camunda-boot/blob/master/LICENSE)

@@ -1,4 +1,4 @@
-package ch.fhnw.digibp;
+package ch.fhnw.devolute;
 
 import org.camunda.bpm.spring.boot.starter.annotation.EnableProcessApplication;
 import org.springframework.boot.SpringApplication;

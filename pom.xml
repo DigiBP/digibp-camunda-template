@@ -4,8 +4,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>ch.fhnw.digibp</groupId>
-    <artifactId>digibp-camunda-template</artifactId>
+    <groupId>ch.fhnw.devolute</groupId>
+    <artifactId>devolute-camunda-template</artifactId>
     <version>7.14.0</version>
     <packaging>jar</packaging>
 

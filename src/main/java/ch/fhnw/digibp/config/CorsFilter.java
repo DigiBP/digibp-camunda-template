@@ -3,7 +3,7 @@
  * All rights reserved.
  */
 
-package ch.fhnw.digibp.config;
+package ch.fhnw.devolute.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
@@ -20,8 +20,8 @@ public class CorsFilter implements Filter {
 
     @Override
     public void doFilter(ServletRequest servletRequest, ServletResponse servletResponse,
-                         FilterChain filterChain) throws IOException, ServletException {
-        if(corsProperties.isEnabled()) {
+            FilterChain filterChain) throws IOException, ServletException {
+        if (corsProperties.isEnabled()) {
             HttpServletResponse response = (HttpServletResponse) servletResponse;
             response.setHeader("Access-Control-Allow-Headers", corsProperties.getAllowedHeaders());
             response.setHeader("Access-Control-Allow-Methods", corsProperties.getAllowedMethods());

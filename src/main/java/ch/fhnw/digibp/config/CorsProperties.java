@@ -3,13 +3,13 @@
  * All rights reserved.
  */
 
-package ch.fhnw.digibp.config;
+package ch.fhnw.devolute.config;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-@ConfigurationProperties(prefix="cors")
+@ConfigurationProperties(prefix = "cors")
 public class CorsProperties {
     private Boolean isEnabled = false;
     private String allowedOrigin = "*";
